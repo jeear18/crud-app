@@ -4,12 +4,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>assa</title>
-        @vite('resources/js/app.js')
+        
+        <title>asdasdasd</title>
+        @routes
+        {{-- @vite('resources/js/app.js') --}}
         @inertiaHead
+        @vite(['resources/css/app.css','resources/js/app.js'])
   
     </head>
-    <body class="font-sans antialiased dark:bg-black dark:text-white/50">
+    <body class=" bg-slate-300 dark:bg-gray-900 text-gray-700 dark:text-gray-300">
+
         @inertia
     </body>
 </html>
